@@ -84,8 +84,10 @@ a { color: inherit; }
 }
 
 .portrait-wrap {
+  flex: 0 0 148px;
   width: 148px;
   height: 148px;
+  min-height: 148px;
   border-radius: 28px;
   overflow: hidden;
   border: 1px solid rgba(246, 241, 231, 0.22);
@@ -492,8 +494,10 @@ footer {
 
   .portrait-wrap {
     grid-area: photo;
+    flex: 0 0 52px;
     width: 52px;
     height: 52px;
+    min-height: 52px;
     border-radius: 14px;
   }
 
