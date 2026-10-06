@@ -1,366 +1,387 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Md. Aynul Islam · PhD Student, USTC</title>
-  <meta name="description" content="Md. Aynul Islam (叶子) is a PhD student in computer science at USTC, working on medical image analysis, vision-language models, and deep learning.">
+  <meta name="theme-color" content="#07111f">
+  <title>Md. Aynul Islam · AI & Medical Imaging Researcher</title>
+  <meta name="description" content="Md. Aynul Islam (叶子) is a PhD student in Computer Science at USTC working on medical image analysis, vision-language models, deep learning, segmentation, and AI systems.">
   <link rel="icon" href="assets/img/favicon.png">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..640&family=Noto+Sans+SC:wght@500&family=Outfit:wght@400..600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@500;600&display=swap" rel="stylesheet">
   <link href="assets/css/site.css" rel="stylesheet">
 </head>
 <body>
-  <a class="skip" href="#content">Skip to content</a>
-  <div class="app">
-    <aside class="side">
-      <div class="portrait-wrap">
-        <img src="assets/img/pollob2.jpg" alt="Portrait of Md. Aynul Islam">
-      </div>
-      <div class="identity">
-        <h1>Md. Aynul Islam</h1>
-        <p class="han">叶子</p>
-        <p class="role"><strong>PhD student</strong>Computer Science · USTC<br>Sep 2026 — Present · Hefei</p>
-      </div>
-      <button class="menu" type="button" aria-expanded="false" aria-controls="sitenav">Menu</button>
-      <nav id="sitenav">
-        <ul>
-          <li><a class="active" href="#about"><span>01</span>About</a></li>
-          <li><a href="#papers"><span>02</span>Papers</a></li>
-          <li><a href="#projects"><span>03</span>Projects</a></li>
-          <li><a href="#experience"><span>04</span>Experience</a></li>
-          <li><a href="#education"><span>05</span>Education</a></li>
-          <li><a href="#awards"><span>06</span>Awards</a></li>
-          <li><a href="#skills"><span>07</span>Skills</a></li>
-          <li><a href="#contact"><span>08</span>Contact</a></li>
-          <li><a href="cv.html"><span>CV</span>English</a></li>
-          <li><a href="cv-zh.html"><span>CV</span>中文</a></li>
-        </ul>
-      </nav>
-      <div class="side-links">
-        <a href="mailto:2150957208@qq.com">2150957208@qq.com</a>
-        <a class="quiet" href="tel:+8613281525701">+86 132 8152 5701</a>
-        <a href="https://github.com/Pollob001">GitHub</a>
-        <a href="https://www.linkedin.com/in/aynul-pollob-b6877b199/">LinkedIn</a>
-      </div>
-    </aside>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <a class="skip-link" href="#content">Skip to content</a>
 
-    <main id="content">
-      <p class="kicker">PhD student · USTC · Hefei</p>
-      <p class="lede">I work on medical images that do not sit still: blurred boundaries, dim scans, and models that still have to be right when the data changes.</p>
+  <header class="topbar" id="top">
+    <a class="brand" href="#top" aria-label="Md. Aynul Islam home">
+      <span class="brand-mark">AI</span>
+      <span class="brand-copy">
+        <strong>Md. Aynul Islam</strong>
+        <small>叶子 · USTC</small>
+      </span>
+    </a>
 
-      <section id="about">
-        <h2>About</h2>
-        <div class="prose">
-          <p>I am a PhD student in computer science at the University of Science and Technology of China, in Hefei, since September 2026. My work is computer vision, medical image analysis, deep learning, and vision-language models: object detection, image segmentation, anomaly detection, and systems that have to run in real time.</p>
-          <p>Before the doctorate I was a master’s student in the AIoT Lab at USTC, and earlier a research assistant at Southwest University of Science and Technology. Several of the papers are in peer-reviewed venues. Two more are under review.</p>
-          <p>Away from the lab I volunteer, play cricket and football, read case studies, and spend time with people who are serious about their own fields. That is usually where the next idea starts.</p>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#papers">Research</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="top-actions">
+      <button class="icon-button theme-toggle" type="button" aria-label="Switch color theme" title="Switch theme">
+        <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4V2m0 20v-2m8-8h2M2 12h2m13.66-5.66 1.42-1.42M4.92 19.08l1.42-1.42m0-11.32L4.92 4.92m14.16 14.16-1.42-1.42M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/></svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.6 8.6 0 0 1 9.8 3.5 8.7 8.7 0 1 0 20.5 14.2Z"/></svg>
+      </button>
+      <a class="button button-small button-ghost desktop-cv" href="cv.html">View CV</a>
+      <button class="mobile-menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation menu">
+        <span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+      <a href="#about">About</a>
+      <a href="#papers">Research</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#awards">Awards</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="cv.html">English CV</a>
+      <a href="cv-zh.html">中文简历</a>
+    </nav>
+  </header>
+
+  <main id="content">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+
+      <div class="hero-copy reveal">
+        <div class="eyebrow-row">
+          <span class="status-pill"><span class="status-dot"></span> PhD Student · USTC</span>
+          <span class="location-pill">Hefei, China</span>
         </div>
-        <ul class="tags" aria-label="Research interests" style="margin-top:1.4rem">
-          <li>Computer vision</li>
-          <li>Medical image analysis</li>
-          <li>Deep learning</li>
-          <li>Vision-language models</li>
-          <li>Medical image segmentation</li>
-          <li>Electronic health records</li>
-          <li>Reinforcement learning</li>
-        </ul>
-      </section>
 
-      <section id="papers">
-        <h2>Selected papers</h2>
-        <div class="paper-list">
-          <article class="paper">
-            <div class="paper-top">
-              <span class="badge">Bioinformatics · CCF-A</span>
-              <p class="meta">Published</p>
+        <p class="hero-kicker">AI · COMPUTER VISION · MEDICAL IMAGING</p>
+        <h1 id="hero-title">Building intelligent vision systems for <span>real clinical complexity.</span></h1>
+        <p class="hero-lede">I research medical image analysis, vision-language models, segmentation, anomaly detection, and robust deep-learning systems designed to work beyond clean benchmark conditions.</p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#papers">Explore my research
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="button button-secondary" href="cv.html">Open CV</a>
+        </div>
+
+        <div class="social-row" aria-label="Social links">
+          <a href="mailto:2150957208@qq.com">Email</a>
+          <span aria-hidden="true">/</span>
+          <a href="https://github.com/Pollob001" target="_blank" rel="noreferrer">GitHub</a>
+          <span aria-hidden="true">/</span>
+          <a href="https://www.linkedin.com/in/aynul-pollob-b6877b199/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" data-delay="100">
+        <div class="portrait-card">
+          <div class="portrait-frame">
+            <img src="assets/img/pollob2.jpg" alt="Portrait of Md. Aynul Islam">
+            <div class="portrait-shine" aria-hidden="true"></div>
+          </div>
+          <div class="portrait-caption">
+            <div>
+              <strong>Md. Aynul Islam</strong>
+              <span class="han">叶子</span>
             </div>
+            <p>Computer Science · USTC</p>
+          </div>
+        </div>
+
+        <div class="floating-card floating-card-a" aria-hidden="true">
+          <span class="floating-icon">CV</span>
+          <div><strong>Medical AI</strong><small>Vision + learning</small></div>
+        </div>
+        <div class="floating-card floating-card-b" aria-hidden="true">
+          <span class="floating-icon">VL</span>
+          <div><strong>Vision-Language</strong><small>Multimodal systems</small></div>
+        </div>
+      </div>
+
+      <div class="hero-metrics reveal" data-delay="180">
+        <article>
+          <strong class="counter" data-target="6">6</strong>
+          <span>Selected papers</span>
+        </article>
+        <article>
+          <strong class="counter" data-target="4">4</strong>
+          <span>Academic programs</span>
+        </article>
+        <article>
+          <strong class="counter" data-target="100" data-suffix="+">100+</strong>
+          <span>Daily USTC.AI queries</span>
+        </article>
+        <article>
+          <strong class="counter" data-target="30" data-prefix="~" data-suffix="%">~30%</strong>
+          <span>Office workload reduced</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section section-shell" id="about">
+      <div class="section-heading reveal">
+        <p class="section-index">01 / PROFILE</p>
+        <div>
+          <h2>Researching where vision models become difficult.</h2>
+          <p>My work focuses on systems that still need to perform when images are dim, boundaries are unclear, domains shift, or the data does not look like the training set.</p>
+        </div>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-story glass-card reveal">
+          <p class="lead-paragraph">I am a PhD student in Computer Science at the University of Science and Technology of China, in Hefei, since September 2026.</p>
+          <p>My research spans computer vision, medical image analysis, deep learning, and vision-language models, including object detection, image segmentation, anomaly detection, and real-time intelligent systems.</p>
+          <p>Before the doctorate I was a master’s student in the AIoT Lab at USTC and earlier a research assistant at Southwest University of Science and Technology. Away from the lab, I volunteer, play cricket and football, and enjoy learning from people working deeply in other fields.</p>
+        </article>
+
+        <aside class="focus-panel reveal" data-delay="80">
+          <p class="mini-label">Current focus</p>
+          <div class="focus-list">
+            <div><span>01</span><p>Domain-generalized medical image segmentation</p></div>
+            <div><span>02</span><p>Vision-language learning for medical anomaly detection</p></div>
+            <div><span>03</span><p>Efficient and robust AI systems for real-time use</p></div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="topic-cloud reveal" aria-label="Research interests">
+        <span>Computer Vision</span><span>Medical Image Analysis</span><span>Deep Learning</span><span>Vision-Language Models</span><span>Segmentation</span><span>Electronic Health Records</span><span>Reinforcement Learning</span>
+      </div>
+    </section>
+
+    <section class="content-section research-section" id="papers">
+      <div class="section-shell">
+        <div class="section-heading section-heading-light reveal">
+          <p class="section-index">02 / RESEARCH</p>
+          <div>
+            <h2>Selected publications and work under review.</h2>
+            <p>A selection of research across medical image segmentation, multimodal anomaly detection, intelligent transportation, and applied computer vision.</p>
+          </div>
+        </div>
+
+        <div class="filter-bar reveal" role="group" aria-label="Filter publications">
+          <button class="filter-button active" type="button" data-filter="all">All <span>6</span></button>
+          <button class="filter-button" type="button" data-filter="published">Published <span>4</span></button>
+          <button class="filter-button" type="button" data-filter="review">Under review <span>2</span></button>
+        </div>
+
+        <div class="paper-grid">
+          <article class="paper-card featured reveal" data-status="published">
+            <div class="paper-card-top"><span class="paper-number">01</span><span class="paper-status published">Published</span></div>
+            <p class="venue">Bioinformatics · CCF-A</p>
             <h3>HyperSeg-DG: Multi-Scale Hyper-Feature Context for Domain-Generalized Medical Image Segmentation</h3>
             <p>A hypergraph-enhanced visual perception framework for segmentation under domain shift, low light, low contrast, and blurred anatomical boundaries.</p>
-            <p class="result">Supported by NSFC 62502491 and the USTC Software Youth Fund YN2260080011.</p>
+            <div class="paper-highlight"><span>Research support</span><strong>NSFC 62502491 · USTC Software Youth Fund</strong></div>
           </article>
 
-          <article class="paper">
-            <div class="paper-top">
-              <span class="badge review">Under review</span>
-              <p class="meta">ACM Transactions on Computing for Healthcare</p>
-            </div>
+          <article class="paper-card reveal" data-status="review" data-delay="40">
+            <div class="paper-card-top"><span class="paper-number">02</span><span class="paper-status review">Under review</span></div>
+            <p class="venue">ACM Transactions on Computing for Healthcare</p>
             <h3>Mamba Nested U-KAN: Region Attention and KAN-Enhanced U-Net++ for Medical Image Segmentation</h3>
-            <p>A segmentation architecture that combines Mamba, Kolmogorov–Arnold Networks, region attention, and U-Net++ for unclear foreground–background boundaries.</p>
+            <p>Combines Mamba, Kolmogorov–Arnold Networks, region attention, and U-Net++ for difficult foreground–background boundaries.</p>
           </article>
 
-          <article class="paper">
-            <div class="paper-top">
-              <span class="badge review">Under review</span>
-              <p class="meta">Bioinformatics</p>
-            </div>
+          <article class="paper-card reveal" data-status="review" data-delay="80">
+            <div class="paper-card-top"><span class="paper-number">03</span><span class="paper-status review">Under review</span></div>
+            <p class="venue">Bioinformatics</p>
             <h3>FAMA: Frequency-Aware Multi-Level Vision-Language Adaptation for Generalized Zero-Shot and Few-Shot Medical Anomaly Detection</h3>
             <p>Adapts a vision-language model with pixel-level alignment, frequency decomposition, and dual-branch cross-attention.</p>
-            <p class="result">+5.18% AUC on anomaly classification and +3.21% AUC on anomaly segmentation.</p>
+            <div class="paper-highlight"><span>Reported gain</span><strong>+5.18% classification AUC · +3.21% segmentation AUC</strong></div>
           </article>
 
-          <article class="paper">
-            <div class="paper-top">
-              <span class="badge">IEEE RAAICON 2025</span>
-              <p class="meta">Published</p>
-            </div>
+          <article class="paper-card reveal" data-status="published">
+            <div class="paper-card-top"><span class="paper-number">04</span><span class="paper-status published">Published</span></div>
+            <p class="venue">IEEE RAAICON 2025</p>
             <h3>Lung Nodule Classification with Quantum Neural Networks and Kolmogorov–Arnold Networks</h3>
             <p>Studies how quantum neural networks and Kolmogorov–Arnold Networks can be combined to classify lung nodules.</p>
           </article>
 
-          <article class="paper">
-            <div class="paper-top">
-              <span class="badge">IEEE RAAICON 2025</span>
-              <p class="meta">Published</p>
-            </div>
+          <article class="paper-card reveal" data-status="published" data-delay="40">
+            <div class="paper-card-top"><span class="paper-number">05</span><span class="paper-status published">Published</span></div>
+            <p class="venue">IEEE RAAICON 2025</p>
             <h3>Integrating YOLOv8 and Vision Transformers: An Enhanced Security Framework for Digital Twins</h3>
             <p>A real-time security framework using YOLOv8, vision transformers, DeepSORT, IoT data, and a digital twin for activity and threat detection.</p>
-            <p class="result">93.77% accuracy and 98.14% precision on the Real-Life Violence dataset.</p>
+            <div class="paper-highlight"><span>Result</span><strong>93.77% accuracy · 98.14% precision</strong></div>
           </article>
 
-          <article class="paper">
-            <div class="paper-top">
-              <span class="badge">IEEE PRECEDE</span>
-              <p class="meta">Published</p>
-            </div>
+          <article class="paper-card reveal" data-status="published" data-delay="80">
+            <div class="paper-card-top"><span class="paper-number">06</span><span class="paper-status published">Published</span></div>
+            <p class="venue">IEEE PRECEDE</p>
             <h3>An Edge-Cloud Collaborative Autonomous Driving System Based on Swin-YOLOv11</h3>
             <p>An edge-cloud detection framework built on Swin-YOLOv11 to raise accuracy without giving up computational efficiency.</p>
           </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="projects">
-        <h2>Projects</h2>
-        <article class="project">
-          <p class="kicker" style="margin-bottom:0.35rem">Chuiying Fund · USTC</p>
-          <h3>USTC.AI — an assistant for international students</h3>
-          <p>I led a chatbot that answers questions about USTC policy, process, and administration. The system is retrieval-augmented: university policy documents are the knowledge source. I coordinated the model backend, the API, and the interface.</p>
-          <div class="stats">
-            <div>
-              <strong>100+</strong>
-              <span>queries a day</span>
-            </div>
-            <div>
-              <strong>~30%</strong>
-              <span>less workload for the international office</span>
-            </div>
-            <div>
-              <strong>2026</strong>
-              <span>USTC anniversary grand prize</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="project quiet-card">
-          <p class="kicker" style="margin-bottom:0.35rem">Undergraduate thesis</p>
-          <h3>Lung nodule classification from CT</h3>
-          <p>A computer-vision pipeline on LIDC-IDRI and LUNA16: preprocessing, feature extraction, transfer learning, and evaluation for pulmonary nodule classification.</p>
-        </article>
-      </section>
-
-      <section id="experience">
-        <h2>Experience</h2>
-        <div class="job-list">
-          <article class="job">
-            <div class="job-top">
-              <h3>PhD student</h3>
-              <p class="meta">Sep 2026 — Present</p>
-            </div>
-            <p class="where">University of Science and Technology of China · Hefei</p>
-            <p>Doctoral study in computer science, continuing work on computer vision and medical image analysis.</p>
-          </article>
-
-          <article class="job">
-            <div class="job-top">
-              <h3>Student researcher, AIoT Lab</h3>
-              <p class="meta">Sep 2023 — Jun 2026</p>
-            </div>
-            <p class="where">University of Science and Technology of China · Hefei</p>
-            <p>Computer vision and deep learning, centered on medical image analysis and segmentation. I built and evaluated models, read the experiments, and wrote the papers.</p>
-          </article>
-
-          <article class="job">
-            <div class="job-top">
-              <h3>AI / NLP research engineer</h3>
-              <p class="meta">Mar 2025 — Sep 2025</p>
-            </div>
-            <p class="where">Anhui Aladdin Quantum Technology · Hefei</p>
-            <p>Built an NLP system that collected financial news from 30 Chinese finance sites and looked for emerging trends. A RAG and BERT pipeline wrote a daily analysis and published it on the company site.</p>
-          </article>
-
-          <article class="job">
-            <div class="job-top">
-              <h3>Research assistant</h3>
-              <p class="meta">Jan 2022 — Jun 2023</p>
-            </div>
-            <p class="where">Information and Security Lab, Southwest University of Science and Technology · Mianyang</p>
-            <p>Deep reinforcement learning and intelligent IoT. I developed and evaluated machine-learning models for real-time IoT applications.</p>
-          </article>
-
-          <article class="job">
-            <div class="job-top">
-              <h3>Junior development engineer</h3>
-              <p class="meta">May 2022 — Nov 2023</p>
-            </div>
-            <p class="where">Venesa · Mianyang</p>
-            <p>Software development with the engineering team, including taking technical feedback into the next build.</p>
-          </article>
+    <section class="content-section section-shell" id="projects">
+      <div class="section-heading reveal">
+        <p class="section-index">03 / PROJECTS</p>
+        <div>
+          <h2>Research translated into systems people can use.</h2>
+          <p>Projects where model design, software engineering, product thinking, and deployment meet.</p>
         </div>
-      </section>
+      </div>
 
-      <section id="education">
-        <h2>Education</h2>
-        <article class="school">
-          <div>
-            <h3>Ph.D. Computer Science and Technology</h3>
-            <p>University of Science and Technology of China · Hefei</p>
+      <div class="project-stack">
+        <article class="project-card project-primary reveal">
+          <div class="project-copy">
+            <div class="project-tags"><span>RAG</span><span>LLM</span><span>API</span><span>Product</span></div>
+            <p class="mini-label">Chuiying Fund · USTC</p>
+            <h3>USTC.AI</h3>
+            <p class="project-subtitle">An assistant for international students.</p>
+            <p>I led a chatbot that answers questions about USTC policy, process, and administration. University policy documents serve as the retrieval knowledge source, while I coordinated the model backend, API, and interface.</p>
           </div>
-          <p class="meta">Sep 2026 — Present</p>
-        </article>
-        <article class="school">
-          <div>
-            <h3>M.S. Computer Science and Technology</h3>
-            <p>University of Science and Technology of China · Hefei</p>
+          <div class="project-stats">
+            <div><strong>100+</strong><span>queries / day</span></div>
+            <div><strong>~30%</strong><span>less office workload</span></div>
+            <div><strong>2026</strong><span>anniversary grand prize</span></div>
           </div>
-          <p class="meta">Sep 2023 — Jun 2026</p>
         </article>
-        <article class="school">
-          <div>
-            <h3>B.S. Computer Science and Technology</h3>
-            <p>Southwest University of Science and Technology · Mianyang</p>
-          </div>
-          <p class="meta">Sep 2019 — Jun 2023</p>
-        </article>
-        <article class="school">
-          <div>
-            <h3>Chinese Language Program</h3>
-            <p>Sichuan University of Culture and Arts · Mianyang</p>
-          </div>
-          <p class="meta">Apr 2019 — Sep 2019</p>
-        </article>
-      </section>
 
-      <section id="awards">
-        <h2>Awards</h2>
-        <div class="award-list">
-          <p class="award"><strong>Outstanding Graduate, Class of 2026</strong><br><span>University of Science and Technology of China, for academic and research work during the master’s.</span></p>
-          <p class="award"><strong>2026 USTC Anniversary Grand Prize</strong><br><span>School of Innovation and Entrepreneurship, for USTC.AI.</span></p>
-          <p class="award"><strong>Chinese Government Scholarship, 2023</strong><br><span>For graduate study in China.</span></p>
-          <p class="award"><strong>Special Scholarship</strong><br><span>Southwest University of Science and Technology.</span></p>
-          <p class="award"><strong>Outstanding Student Award</strong><br><span>Sichuan University of Culture and Arts, for Chinese language study.</span></p>
+        <article class="project-card project-secondary reveal" data-delay="70">
+          <div class="project-index">02</div>
+          <div>
+            <p class="mini-label">Undergraduate thesis</p>
+            <h3>Lung nodule classification from CT</h3>
+            <p>A computer-vision pipeline on LIDC-IDRI and LUNA16 covering preprocessing, feature extraction, transfer learning, and evaluation for pulmonary nodule classification.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section timeline-section section-shell" id="experience">
+      <div class="section-heading reveal">
+        <p class="section-index">04 / EXPERIENCE</p>
+        <div>
+          <h2>Research, engineering, and applied AI.</h2>
+          <p>A path across academic research, intelligent systems, NLP, IoT, and software engineering.</p>
         </div>
-      </section>
+      </div>
 
-      <section id="skills">
-        <h2>Skills and languages</h2>
-        <div class="skills">
-          <div class="skill-row">
-            <h3>Frameworks</h3>
-            <ul class="tags">
-              <li>PyTorch</li>
-              <li>TensorFlow</li>
-              <li>Keras</li>
-              <li>Transformers</li>
-              <li>BERT</li>
-            </ul>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-date">Sep 2026 — Present</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content"><h3>PhD Student</h3><p class="timeline-place">University of Science and Technology of China · Hefei</p><p>Doctoral study in computer science, continuing work on computer vision and medical image analysis.</p></div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-date">Sep 2023 — Jun 2026</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content"><h3>Student Researcher · AIoT Lab</h3><p class="timeline-place">University of Science and Technology of China · Hefei</p><p>Computer vision and deep learning centered on medical image analysis and segmentation, from model development and evaluation to research writing.</p></div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-date">Mar 2025 — Sep 2025</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content"><h3>AI / NLP Research Engineer</h3><p class="timeline-place">Anhui Aladdin Quantum Technology · Hefei</p><p>Built an NLP system that collected financial news from 30 Chinese finance sites and used RAG and BERT to create daily trend analysis.</p></div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-date">Jan 2022 — Jun 2023</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content"><h3>Research Assistant</h3><p class="timeline-place">Information and Security Lab, Southwest University of Science and Technology · Mianyang</p><p>Worked on deep reinforcement learning and intelligent IoT, developing machine-learning models for real-time applications.</p></div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-date">May 2022 — Nov 2023</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content"><h3>Junior Development Engineer</h3><p class="timeline-place">Venesa · Mianyang</p><p>Worked with the engineering team on software development and iterative product improvement based on technical feedback.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section split-section" id="education">
+      <div class="section-shell two-column">
+        <div>
+          <div class="section-heading compact reveal">
+            <p class="section-index">05 / EDUCATION</p>
+            <div><h2>Academic journey.</h2></div>
           </div>
-          <div class="skill-row">
-            <h3>Methods</h3>
-            <ul class="tags">
-              <li>RAG</li>
-              <li>YOLO</li>
-              <li>Mamba</li>
-              <li>Kolmogorov–Arnold Networks</li>
-              <li>Deep reinforcement learning</li>
-            </ul>
-          </div>
-          <div class="skill-row">
-            <h3>Tools</h3>
-            <ul class="tags">
-              <li>Git</li>
-              <li>GitHub</li>
-              <li>Anaconda</li>
-              <li>LaTeX</li>
-            </ul>
+          <div class="education-list">
+            <article class="education-card reveal"><span>2026 — Present</span><h3>Ph.D. Computer Science and Technology</h3><p>University of Science and Technology of China · Hefei</p></article>
+            <article class="education-card reveal"><span>2023 — 2026</span><h3>M.S. Computer Science and Technology</h3><p>University of Science and Technology of China · Hefei</p></article>
+            <article class="education-card reveal"><span>2019 — 2023</span><h3>B.S. Computer Science and Technology</h3><p>Southwest University of Science and Technology · Mianyang</p></article>
+            <article class="education-card reveal"><span>2019</span><h3>Chinese Language Program</h3><p>Sichuan University of Culture and Arts · Mianyang</p></article>
           </div>
         </div>
 
-        <div class="langs" style="margin-top:1.3rem">
-          <article>
-            <h3>Bengali</h3>
-            <p>Native</p>
-          </article>
-          <article>
-            <h3>English</h3>
-            <p>Medium of instruction</p>
-          </article>
-          <article>
-            <h3>Chinese</h3>
-            <p>HSK 3</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="contact">
-        <h2>Contact</h2>
-        <div class="contact-grid">
-          <div>
-            <p class="kicker">Email</p>
-            <a href="mailto:2150957208@qq.com">2150957208@qq.com</a>
+        <div id="awards">
+          <div class="section-heading compact reveal">
+            <p class="section-index">06 / RECOGNITION</p>
+            <div><h2>Awards & scholarships.</h2></div>
           </div>
-          <div>
-            <p class="kicker">Phone</p>
-            <a href="tel:+8613281525701">+86 132 8152 5701</a>
-          </div>
-          <div>
-            <p class="kicker">Based in</p>
-            <p>Hefei, Anhui, China</p>
-          </div>
-          <div>
-            <p class="kicker">Elsewhere</p>
-            <p><a href="https://github.com/Pollob001">GitHub</a> · <a href="https://www.linkedin.com/in/aynul-pollob-b6877b199/">LinkedIn</a></p>
-          </div>
-          <div>
-            <p class="kicker">CV</p>
-            <p><a href="cv.html">English</a> · <a href="cv-zh.html">中文</a></p>
+          <div class="award-cards">
+            <article class="award-card reveal"><span>2026</span><div><h3>Outstanding Graduate</h3><p>University of Science and Technology of China</p></div></article>
+            <article class="award-card reveal"><span>2026</span><div><h3>USTC Anniversary Grand Prize</h3><p>School of Innovation and Entrepreneurship · USTC.AI</p></div></article>
+            <article class="award-card reveal"><span>2023</span><div><h3>Chinese Government Scholarship</h3><p>Graduate study in China</p></div></article>
+            <article class="award-card reveal"><span>—</span><div><h3>Special Scholarship</h3><p>Southwest University of Science and Technology</p></div></article>
+            <article class="award-card reveal"><span>—</span><div><h3>Outstanding Student Award</h3><p>Sichuan University of Culture and Arts</p></div></article>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <footer>
-        <p>Md. Aynul Islam · 叶子 · Hefei</p>
-      </footer>
-    </main>
-  </div>
-  <script>
-    const menu = document.querySelector(".menu");
-    const nav = document.querySelector("#sitenav");
-    menu.addEventListener("click", () => {
-      const open = nav.classList.toggle("open");
-      menu.setAttribute("aria-expanded", open ? "true" : "false");
-    });
-    nav.querySelectorAll("a").forEach((link) => {
-      link.addEventListener("click", () => {
-        nav.classList.remove("open");
-        menu.setAttribute("aria-expanded", "false");
-      });
-    });
-    const links = [...document.querySelectorAll("#sitenav a")];
-    const sections = links.map((link) => document.querySelector(link.getAttribute("href"))).filter(Boolean);
-    const markCurrent = () => {
-      const line = window.innerHeight * 0.28;
-      let current = sections[0];
-      sections.forEach((section) => {
-        if (section.getBoundingClientRect().top <= line) current = section;
-      });
-      links.forEach((link) => {
-        link.classList.toggle("active", link.getAttribute("href") === "#" + current.id);
-      });
-    };
-    document.addEventListener("scroll", markCurrent, { passive: true });
-    markCurrent();
-  </script>
+    <section class="content-section section-shell" id="skills">
+      <div class="section-heading reveal">
+        <p class="section-index">07 / TOOLKIT</p>
+        <div>
+          <h2>Methods and technologies I work with.</h2>
+          <p>Focused on deep-learning research, multimodal systems, computer vision, experimentation, and deployment.</p>
+        </div>
+      </div>
+
+      <div class="skill-grid">
+        <article class="skill-card reveal"><div class="skill-icon">01</div><h3>Frameworks</h3><div class="skill-tags"><span>PyTorch</span><span>TensorFlow</span><span>Keras</span><span>Transformers</span><span>BERT</span></div></article>
+        <article class="skill-card reveal" data-delay="60"><div class="skill-icon">02</div><h3>Methods</h3><div class="skill-tags"><span>RAG</span><span>YOLO</span><span>Mamba</span><span>KAN</span><span>Deep RL</span></div></article>
+        <article class="skill-card reveal" data-delay="120"><div class="skill-icon">03</div><h3>Tools</h3><div class="skill-tags"><span>Git</span><span>GitHub</span><span>Anaconda</span><span>LaTeX</span></div></article>
+      </div>
+
+      <div class="language-strip reveal">
+        <p class="mini-label">Languages</p>
+        <div><strong>Bengali</strong><span>Native</span></div>
+        <div><strong>English</strong><span>Medium of instruction</span></div>
+        <div><strong>Chinese</strong><span>HSK 3</span></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-shell contact-inner reveal">
+        <p class="section-index">08 / CONTACT</p>
+        <h2>Interested in research, collaboration, or a technical conversation?</h2>
+        <p>I am based in Hefei, Anhui, China. The simplest way to reach me is by email.</p>
+        <div class="contact-actions">
+          <a class="button button-light" href="mailto:2150957208@qq.com">2150957208@qq.com
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="text-link-light" href="tel:+8613281525701">+86 132 8152 5701</a>
+        </div>
+        <div class="contact-footer">
+          <div class="footer-links"><a href="https://github.com/Pollob001" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/aynul-pollob-b6877b199/" target="_blank" rel="noreferrer">LinkedIn</a><a href="cv.html">English CV</a><a href="cv-zh.html">中文 CV</a></div>
+          <p>Md. Aynul Islam · 叶子 · <span id="year"></span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" type="button" aria-label="Back to top" title="Back to top">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6"/></svg>
+  </button>
+
+  <script src="assets/js/site.js" defer></script>
 </body>
 </html>
